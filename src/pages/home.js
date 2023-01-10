@@ -131,11 +131,11 @@ function Home() {
 
   return (
     <>
-      <Head defaultTitle="Metallic"></Head>
+      <Head defaultTitle="Red Hat Proxy"></Head>
       <Proxy ref={proxy} />
       <Nav />
       <div className="hometitle">
-        <Obfuscate>Metallic</Obfuscate>
+        <Obfuscate>Red Hat Proxy</Obfuscate>
       </div>
       <div ref={omniboxcontainer} className="omniboxcontainer">
         <div ref={omnibox} className="omnibox">
@@ -177,18 +177,10 @@ function Home() {
           </Link>
         </div>
         <div className="footermiddle">
-          <Obfuscate>© Metallic </Obfuscate>{new Date().getFullYear()}
+          <Obfuscate>© Ai1-Studios </Obfuscate>{new Date().getFullYear()}
         </div>
         <div>
-          <a className="footersides link" href="https://discord.gg/yk33HZSZkU">
-            Discord
-          </a>
-          <a
-            className="footersides link"
-            href="https://github.com/Nebelung-Dev/Metallic"
-          >
-            Github
-          </a>
+         
         </div>
       </div>
     </>
